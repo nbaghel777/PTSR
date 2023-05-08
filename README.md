@@ -44,15 +44,15 @@ psnrvsmodel
 
 # Contact:
 Should you have any question, please contact neerajbaghel@ieee.org
-1) SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
+1) PTSR: Patch Translator for Image Super-Resolution
 
 # Citation
-If you use SRTransGAN, please consider citing:
+If you use PTSR, please consider citing:
 
 @inproceedings{baghel2022srtransgan,
-    title={SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network}, 
+    title={ PTSR: Patch Translator for Image Super-Resolution}, 
     author={Neeraj Baghel and Satish Singh and Shiv Ram Dubey},
-    year={2022}
+    year={2023}
 }
 
 # Related Works: 
