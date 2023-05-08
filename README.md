@@ -1,4 +1,4 @@
-# SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
+# PTSR: Patch Translator for Image Super-Resolution
 [Neeraj Baghel](https://sites.google.com/view/nbaghel777) , [Satish Singh](https://cvbl.iiita.ac.in/sks/) and [Shiv Ram Dubey](https://profile.iiita.ac.in/srdubey/)
 <!--
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
@@ -20,10 +20,7 @@
 
 <hr />
 
-> **Abstract:** Image super-resolution aims to synthesize high-resolution image from a low-resolution image. 
-It is an active area to overcome the resolution limitations in several applications like low-resolution object-recognition, medical image enhancement, etc. 
-The generative adversarial network (GAN) based methods have been the state-of-the-art for image super-resolution by utilizing the convolutional neural networks (CNNs) based generator and discriminator networks. However, the CNNs are not able to exploit the global information very effectively in contrast to the transformers, which are the recent breakthrough in deep learning by exploiting the self-attention mechanism. Motivated from the success of transformers in language and vision applications, we propose a SRTransGAN for image super-resolution using transformer based GAN. Specifically, we propose a novel transformer-based encoder-decoder network as a generator to generate $2\times$ images and $4\times$ images. We design the discriminator network using vision transformer which uses the image as sequence of patches and hence useful for binary classification between synthesized and real high-resolution images. 
-The proposed SRTransGAN outperforms the existing methods by 4.38\% on an average of PSNR and SSIM scores. We also analyze the saliency map to show the effectiveness of the proposed method. The code used in the paper will be publicly available at [https://github.com/nbaghel777/SRTransGAN](https://github.com/nbaghel777/SRTransGAN).
+> **Abstract:** Image super-resolution generation aims to generate a high-resolution image from its low-resolution image. However, more complex neural networks bring high computational costs and memory storage. It is still an active area for offering the promise of overcoming resolution limitations in many applications. In recent years, transformers have made significant progress in computer vision tasks as their robust self-attention mechanism. However, recent works on the transformer for image super-resolution also contain convolution operations. We propose a patch translator for image super-resolution (PTSR) to address this problem. The proposed PTSR is a transformer-based GAN network with no convolution operation. We introduce a novel patch translator module for regenerating the improved patches utilising multi-head attention, which is further utilised by the generator to generate the $2\times$ and $4\times$ super-resolution images. The experiments are performed using benchmark datasets, including DIV2K, Set5, Set14, and BSD100. The results of the proposed model is improved on an average for $4\times$ super-resolution by 21.66\% in PNSR score and 11.59\% in SSIM score, as compared to the best competitive models. We also analyse the proposed loss and saliency map to show the effectiveness of the proposed method. The code used in the paper will be made publicly available at https://github.com/nbaghel777/PTSR.
 <hr />
 
 # Network Architecture
