@@ -24,7 +24,7 @@
 <hr />
 
 # Network Architecture
-<img src = "https://github.com/nbaghel777/PTSR/VTrans-VisionTranslator.jpg"> 
+<img src = "https://github.com/nbaghel777/PTSR/blob/main/VTrans-VisionTranslator.jpg"> 
 
 # Training and Evaluation
 
