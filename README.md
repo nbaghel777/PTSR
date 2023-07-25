@@ -24,7 +24,7 @@
 <hr />
 
 # Model Comapre
-<img src = "https://github.com/nbaghel777/PTSR/blob/main/psnrvsmode.png"> 
+<img src = "https://github.com/nbaghel777/PTSR/blob/main/psnrvsmodel.png"> 
 
 psnrvsmodel
 
